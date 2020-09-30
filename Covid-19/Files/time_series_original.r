@@ -1,8 +1,8 @@
-dataset<-read.csv(file.choose())
+dataset<-read.csv(file.choose())  # it will take file from your local folder
 dataset
-
+   
 library(Hmisc)
-describe(dataset)  
+describe(dataset)   
 
 
 dataset$Date 
